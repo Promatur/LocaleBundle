@@ -16,9 +16,11 @@ jobs:
       matrix:
         symfony-version:
           - '^5.4'
+          - '^7.0'
         php-version:
           - '7.2.5'
           - '7.4'
+          - '8.2'
         dependencies:
           - "lowest"
           - "highest"
